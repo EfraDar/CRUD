@@ -28,3 +28,19 @@ Pasos que seguir
 6. Leer los datos de la base de datos
     - Definir la función de lectura de datos
     - Leer datos de la base de datos
+
+
+- Conexion a BD SQLite con python
+
+Se busca lograr la conexion a una base de datos de SQLite desde python y crearla desde este mismo
+
+1. Importar librerias
+     - Importamos la libreria de SQLite3
+2. Conectar la base de datos
+     - Conectamos python con SQLite y creamos una nueva base de datos
+3. Creacion de tablas
+     - Creamos una tabla con un try para no volver a crearla las veces que corramos el codigo
+4. Insercion de datos
+     - Insertamos datos en la tabla ya creada 
+5. Consulta de datos
+     - Consultamos los datos ingresados en la tabla
